@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
-import { Button } from '@/components/ui/button/Button';
+import { Button } from "@/components/ui/button/Button";
 import {
   Dialog,
   DialogContent,
@@ -8,9 +8,9 @@ import {
   DialogHeader,
   DialogOverlay,
   DialogTitle,
-} from '@/components/ui/dialog';
+} from "@/components/ui/dialog";
 
-import styles from './styles/StatusModal.module.scss';
+import styles from "./styles/StatusModal.module.scss";
 
 interface StatusModalProps {
   isOpen: boolean;

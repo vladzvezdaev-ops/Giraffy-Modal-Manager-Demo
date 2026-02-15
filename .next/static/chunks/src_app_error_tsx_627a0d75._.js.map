@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/vladislavzvezdaev/Desktop/giraffy-modals-case/src/app/error.tsx"],"sourcesContent":["\"use client\";\n\nimport type { FC } from \"react\";\n\ntype ErrorProps = { reset: () => void };\nconst error: FC<ErrorProps> = ({ reset }) => {\n  return (\n    <Error\n      errorCode={500}\n      title={[\"Технічні труднощі\"]}\n      description=\"Тимчасові проблеми на сервері. Команда вже працює над вирішенням\"\n      onRetry={reset}\n      showUpdateButton={true}\n    />\n  );\n};\nexport default error;\n"],"names":[],"mappings":";;;;;AAAA;;AAKA,MAAM,QAAwB;QAAC,EAAE,KAAK,EAAE;IACtC,qBACE,6LAAC;QACC,WAAW;QACX,OAAO;YAAC;SAAoB;QAC5B,aAAY;QACZ,SAAS;QACT,kBAAkB;;;;;;AAGxB;uCACe","debugId":null}}]
-}

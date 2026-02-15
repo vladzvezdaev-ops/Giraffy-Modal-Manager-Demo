@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/vladislavzvezdaev/Desktop/giraffy-modals-case/src/app/error.tsx"],"sourcesContent":["\"use client\";\n\nimport type { FC } from \"react\";\n\ntype ErrorProps = { reset: () => void };\nconst error: FC<ErrorProps> = ({ reset }) => {\n  return (\n    <Error\n      errorCode={500}\n      title={[\"Технічні труднощі\"]}\n      description=\"Тимчасові проблеми на сервері. Команда вже працює над вирішенням\"\n      onRetry={reset}\n      showUpdateButton={true}\n    />\n  );\n};\nexport default error;\n"],"names":[],"mappings":";;;;;AAAA;;AAKA,MAAM,QAAwB,CAAC,EAAE,KAAK,EAAE;IACtC,qBACE,8OAAC;QACC,WAAW;QACX,OAAO;YAAC;SAAoB;QAC5B,aAAY;QACZ,SAAS;QACT,kBAAkB;;;;;;AAGxB;uCACe","debugId":null}},
-    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":["file:///Users/vladislavzvezdaev/Desktop/giraffy-modals-case/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-ssr']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0],"debugId":null}}]
-}

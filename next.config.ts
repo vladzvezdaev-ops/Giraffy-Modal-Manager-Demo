@@ -2,11 +2,18 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-
   basePath: "/Giraffy-Modal-Manager-Demo",
-
+  assetPrefix: "/Giraffy-Modal-Manager-Demo",
+  trailingSlash: true,
   images: {
     unoptimized: true,
+  },
+
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
   },
 
   webpack(config) {

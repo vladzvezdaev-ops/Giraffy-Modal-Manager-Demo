@@ -1,6 +1,6 @@
-import { type FC } from 'react';
+import { type FC } from "react";
 
-import HomePage from '@/views/home/HomePage';
+import HomePage from "@/views/home/HomePage";
 
 const Home: FC = () => <HomePage />;
 

@@ -1,11 +1,11 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 type ModalType =
-  | 'welcome'
-  | 'error'
-  | 'sendmessage'
-  | 'successreview'
-  | 'complaint'
+  | "welcome"
+  | "error"
+  | "sendmessage"
+  | "successreview"
+  | "complaint"
   | null;
 
 export const useModalManager = () => {
