@@ -4,8 +4,13 @@ const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
   output: "export",
+
   basePath: isProd ? "/Giraffy-Modal-Manager-Demo" : "",
+
+  assetPrefix: isProd ? "/Giraffy-Modal-Manager-Demo/" : "",
+
   trailingSlash: true,
+
   images: {
     unoptimized: true,
   },
