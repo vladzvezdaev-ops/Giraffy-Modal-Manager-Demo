@@ -1,12 +1,20 @@
-import type { NextConfig } from 'next';
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: "export",
+
+  basePath: "/Giraffy-Modal-Manager-Demo",
+
+  images: {
+    unoptimized: true,
+  },
+
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/i,
       use: [
         {
-          loader: '@svgr/webpack',
+          loader: "@svgr/webpack",
           options: {
             svgo: true,
             titleProp: true,
@@ -20,11 +28,11 @@ const nextConfig: NextConfig = {
 
   turbopack: {
     rules: {
-      '*.svg': {
-        as: '*.js',
+      "*.svg": {
+        as: "*.js",
         loaders: [
           {
-            loader: '@svgr/webpack',
+            loader: "@svgr/webpack",
             options: {
               svgo: true,
               titleProp: true,
