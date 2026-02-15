@@ -1,4 +1,4 @@
-@import "@/shared/styles/utils/variables";
+@use "@/shared/styles/utils/variables" as *;
 
 .button {
   padding: 16px 32px;

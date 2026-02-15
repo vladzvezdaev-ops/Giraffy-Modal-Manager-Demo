@@ -1,4 +1,4 @@
-@import "@/shared/styles/utils/index";
+@use "@/shared/styles/utils/index" as *;
 
 .title {
   text-wrap: nowrap;

@@ -1,13 +1,6 @@
-import { Nunito, Open_Sans } from "next/font/google";
-
-export const nunito = Nunito({
-  variable: "--font-nunito",
-  subsets: ["latin", "cyrillic"],
-  fallback: ["sans-serif"],
-});
-
-export const openSans = Open_Sans({
+// Replaced next/font usage with CSS-imported Google fonts (for Vite)
+export const nunito = { variable: "--font-nunito", className: "font-nunito" };
+export const openSans = {
   variable: "--font-open-sans",
-  subsets: ["latin", "cyrillic"],
-  fallback: ["sans-serif"],
-});
+  className: "font-open-sans",
+};
