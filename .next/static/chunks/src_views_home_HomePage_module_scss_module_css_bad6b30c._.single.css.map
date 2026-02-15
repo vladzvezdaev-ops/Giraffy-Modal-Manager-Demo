@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///turbopack:///[project]/src/views/home/Users/vladislavzvezdaev/Desktop/giraffy-modals-case/src/views/home/HomePage.module.scss","turbopack:///turbopack:///[project]/src/views/home/Users/vladislavzvezdaev/Desktop/giraffy-modals-case/src/shared/styles/utils/_variables.scss"],"sourcesContent":["@import \"@/shared/styles/utils/index\";\n\n.title {\n  text-wrap: nowrap;\n  color: $color-orange;\n  margin-bottom: 50px;\n  margin-top: 100px;\n}\n\n.home-page {\n  &__content {\n    display: flex;\n    flex-direction: column;\n    gap: 80px;\n\n    margin-bottom: 80px;\n  }\n}\n","// legacy names kept\n$color-white: #ffffff;\n$color-black: #000000;\n\n$color-primary: #09203f;\n$color-success: #28a745;\n$color-error: #e53935;\n$color-orange: #ff7518;\n\n$color-modal-bg: #ffffff;\n$color-modal-text: #222222;\n$color-overlay: rgba(0, 0, 0, 0.5);\n$color-muted: #6b7280;\n\n// variables expected by other scss files\n$white: $color-white;\n$black: $color-black;\n$blue: $color-primary;\n$orange: $color-orange;\n$gray: #f3f4f6;\n$dark-gray: #4b5563;\n$light-gray: #9ca3af;\n"],"names":[],"mappings":"AAEA;;;;;;;AAQE"}}]
+}

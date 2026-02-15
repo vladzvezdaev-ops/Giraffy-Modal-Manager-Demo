@@ -1,0 +1,34 @@
+/* [project]/src/components/ui/button/Button.module.scss.module.css [app-client] (css) */
+.Button-module-scss-module__F6QE6q__button {
+  color: #09203f;
+  cursor: pointer;
+  background-color: #ff7518;
+  border: none;
+  border-radius: 10px;
+  min-width: 260px;
+  padding: 16px 32px;
+  font-weight: 600;
+  transition: background-color .2s, transform .1s, box-shadow .2s;
+  box-shadow: 0 4px rgba(0, 0, 0, .1);
+}
+
+.Button-module-scss-module__F6QE6q__button:hover {
+  filter: brightness(1.05);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .15);
+}
+
+.Button-module-scss-module__F6QE6q__button:active {
+  filter: brightness(.95);
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+}
+
+.Button-module-scss-module__F6QE6q__button:disabled {
+  filter: grayscale();
+  opacity: .6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/*# sourceMappingURL=src_components_ui_button_Button_module_scss_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 109, "column": 0}, "map": {"version":3,"sources":["file:///Users/vladislavzvezdaev/Desktop/giraffy-modals-case/src/app/api/auth/%5B...nextauth%5D/route.ts"],"sourcesContent":["import NextAuth from 'next-auth';\n\nimport { authOptions } from '@/modules/auth';\n\nconst handler = NextAuth(authOptions);\n\nexport { handler as GET, handler as POST };\n"],"names":[],"mappings":";;;;;;AAAA;;;;;;;;AAIA,MAAM,UAAU,IAAA,kJAAQ,EAAC","debugId":null}}]
+}

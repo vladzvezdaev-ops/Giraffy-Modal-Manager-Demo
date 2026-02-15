@@ -1,0 +1,22 @@
+// legacy names kept
+$color-white: #ffffff;
+$color-black: #000000;
+
+$color-primary: #09203f;
+$color-success: #28a745;
+$color-error: #e53935;
+$color-orange: #ff7518;
+
+$color-modal-bg: #ffffff;
+$color-modal-text: #222222;
+$color-overlay: rgba(0, 0, 0, 0.5);
+$color-muted: #6b7280;
+
+// variables expected by other scss files
+$white: $color-white;
+$black: $color-black;
+$blue: $color-primary;
+$orange: $color-orange;
+$gray: #f3f4f6;
+$dark-gray: #4b5563;
+$light-gray: #9ca3af;
